@@ -335,6 +335,12 @@ table {
         margin: 5px;
     }
 
+    .box2 {
+        .ps {
+            font-size: 12px;
+        }
+    }
+
     h4 {
         font-size: 12px;
     }
