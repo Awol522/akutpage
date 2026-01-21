@@ -22,6 +22,35 @@ header {
     height: 50%;
 }
 
+.d1, .d2, .d3 {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.v1, .m1, .o1 {
+    margin-left: 5px;
+    padding-bottom: 5px;
+}
+
+.d1, .d2, .d3, .p1 {
+    margin-left: 5px;
+    margin: 5px;
+    line-height: 0.8;
+    text-align: justify;
+} 
+
+.v1, .m1, .o1 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.fo {
+    width: 92%;
+    margin: auto;
+    height: 50%;
+}
+
 
 /* Tablet Styles */
 @media only screen and (min-width:576px){
@@ -46,21 +75,6 @@ header {
 .vmo {
      margin-bottom: 10px;
      margin-left: 10px;
-}
-
-.box1, .box2, .box3{
-    width: 21em;
-    height: 25em;
-    background-color: #fff;
-    box-shadow: 5px 5px 25px #5555555f;
-    border-radius: 10px;
-    display: flexbox;
-}
-
-.boxs {
-    display: flex;
-    justify-content: center;
-    gap: 1em;
 }
 
 .vis {
@@ -113,7 +127,7 @@ footer {
      border-radius: 10px;
      border: 3px solid white;
      margin-right: 20px;
-    margin-left: 10px;
+     margin-left: 10px;
 }
 
 .int {
@@ -309,6 +323,17 @@ table {
 
 .jam {
     max-width: 150px;
+    float:left;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px; 
+}
+
+
+.mak {
+    max-width: 120px;
     float:left;
     border-radius: 10px;
     margin-right: 10px;

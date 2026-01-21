@@ -272,18 +272,30 @@ section {
 
 @media (max-width:1023px){
     header{
-        padding: 6px 10px;
+        padding: 6px 8px;
     }
 
     .navigation a{
-        padding-left: 5px;
+        padding-left: 10px;
     }
 
-    .title{
-        font-size: 1.4em;
+    .navigation i {
+        padding: 3px;
     }
 
-    section{
+    .title {
+        font-size: 1em;
+    }
+
+    .logo {
+        font-size: 1em;
+    }
+
+
+
+    
+
+    section {
         padding: 40px 10px;
     }
 
@@ -313,10 +325,20 @@ section {
     .main-content h3{
         font-size: 1.4em;
     }
+
+    .main-btn {
+        font-size: 1em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+
+    
 }
 
 @media (max-width:300px){
     body{
         font-size: 10px;
     }
+
 }
